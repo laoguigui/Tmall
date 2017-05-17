@@ -69,3 +69,241 @@ nav.top a:hover{
     width: 800px;
     margin: 35px auto;
 }
+div.navwithcarousel{
+    width: 100%;
+    position: relative;
+}
+div.navwithcarousel .nav2{
+    background-color: #DD2727;
+}
+div.navwithcarousel .nav2 .left-nav{
+    width: 200px;
+    background-color: #C60A0A;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-left: 420px;
+
+}
+div.navwithcarousel .nav2 .left-nav span{
+    padding: 10px;
+}
+div.navwithcarousel .nav2 .right-nav{
+    display: inline-block;
+}
+div.navwithcarousel .nav2 .right-nav a{
+    color: white;
+    font-size: 16px;
+
+}
+div.navwithcarousel .nav2 .right-nav a:hover{
+    text-decoration: none;
+}
+div.navwithcarousel .nav2 .right-nav span{
+    margin: 0 20px 0 0px;
+}
+div.navwithcarousel .nav2 .right-nav img{
+    height: 30px;
+}
+div .carousel-of-product{
+    height: 510px;
+    width: 1024px;
+    margin: 0 auto;
+    background-color:#E8E8E8 ;
+}
+img.carouselImage{
+    height: 510px !important;
+}
+div.carouselBackgroundDiv{
+    width: 100%;
+    position: absolute;
+    background-color: #E8E8E8;
+    height: 510px;
+    top: 36px;
+    z-index: -1;
+}
+div.caroMenu{
+    width: 200px;
+    background-color: #e2e2e3;
+    margin-left: 420px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+div.caroMenu a{
+    color: #000;
+}
+div.caroMenu a:hover{
+    color: lightskyblue;
+    text-decoration: none;
+}
+div.productsAsideCategorys{
+    width: 800px;
+    height: 510px;
+    background-color: white;
+    margin-left: 620px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+div.productsAsideCategorys .row{
+    margin: 20px 80px 0px 80px;
+}
+div.productsAsideCategorys div.row div.seperator{
+    margin-top: 20px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #e7e7e7;
+}
+div.productsAsideCategorys div.row a{
+    color: #999999;
+    font-size: 14px;
+    margin: 8px;
+}
+div.productsAsideCategorys div.row a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+div.eachCategory{
+    line-height: 30px;
+    padding-left: 10px;
+}
+div.eachCategory span{
+    margin-right: 10px;
+}
+div.eachCategory:hover{
+    background-color: white;
+}
+
+div.homepageCategoryProducts{
+    width: 1024px;
+    margin: 20px auto;
+    padding: 50px 10px 50px 10px;
+    background-color: #F5F5F5 ;
+}
+div.eachHomepageCategoryProducts{
+    margin-bottom: 40px;
+}
+div.homepageCategoryProducts .eachHomepageCategoryProducts .productItem{
+    width: 189px;
+    height: 285px;
+    margin: 8px 4px;
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+div.homepageCategoryProducts .productItemDesc{
+    display: block;
+    color: #666666;
+    padding: 8px;
+
+}
+div.homepageCategoryProducts .productPrice{
+    font-size: 16px;
+    color:#FF003A;
+    display: block;
+    padding-left: 16px;
+    margin-top: -10px;
+}
+div.productItem img{
+    height: 190px;
+    width: 187px;
+}
+div.productItem img:hover{
+    opacity: 0.7;
+    filter: alpha(opacity = 70);
+}
+a.productItemDescLink{
+    display: inline-block;
+    height: 80px;
+    text-decoration: none;
+}
+span.categoryTitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #646464;
+}
+div.left-mark{
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    width: 5px;
+    background-color: #19C8A9;
+}
+img.endpng{
+    display: block;
+    margin: 0 auto;
+    width: 82px;
+}
+
+img{
+    height: 120px;
+}
+
+.footer-ensure{
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    height: 180px;
+    line-height: 180px;
+}
+.footer-dec{
+    width: 1400px;
+    margin: 0 auto;
+    border-top:1px solid #e7e7e7;
+
+}
+.footer-dec .descColumn{
+    float: left;
+    padding-top:20px;
+    margin: 0 100px 0 100px;
+
+
+}
+.footer-dec .descColumn a{
+    display: block;
+    color:#999999 ;
+}
+.footer-dec .descColumn a:hover{
+    text-decoration: none;
+    color: #C40000;
+}
+.footer{
+    clear: both;
+}
+.copyright {
+
+    background-color: #000000;
+
+}
+.cateye{
+    clear: both;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+.white_link{
+    padding: 10px 0;
+    margin-left: 10px;
+}
+.white_link, .license, .copyRightYear{
+    background-color: #000000;
+    margin-left: 10px;
+    color: #A4A4A4;
+}
+.copyright a{
+    color: white;
+    padding: 0 5px;
+
+}
+.license img{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
