@@ -1,5 +1,5 @@
 # Tmall
-create a shopping website 
-haven't done
-main page is in public/publicindex
-I will go on to update the codes
+I will create a shopping website. 
+But it haven't been finished,
+which main page is in public/publicindex.
+I will go on to update the codes.
