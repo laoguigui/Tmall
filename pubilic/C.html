@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.1.1.js" ></script>
+    <title></title>
+    <script>
+      var co = document.getElementsByTagName('span');
+      console.log(co)
+       for(var i =0;i<co.length;i++){
+          var x = co[i].getAttribute('color');
+           alert(x);
+       }
+     function sendAllData(arrayAllData,sendAllDataCallback){
+         var xmlHttp;
+         if(window.XMLHttpRequest){
+             xmlHttp = new XMLHttpRequest;
+         }else{
+             xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+         }
+         var l = arrayAllData.length;
+         for(var i = 0;i<l;i++) {
+             sendData(arrayAllData[i], sendDataCallback);
+         }
+         xmlHttp.onreadystatechange=function(){
+             if(xmlHttp.readyState==4&&xmlHttp.status==200){
+                 sendAllDataCallback.call(function(error){
+                     if(error==null){
+                         alert("没有错误");
+                     }
+                 });
+             }else{
+                 sendAllDataCallback.call(function(error){
+                     if(error!=null){
+                         alert(error.responseXML);
+                     };
+                 }
+     }
+     }}
+
+
+    </script>
+</head>
+<body>
+    <div class="color">
+        <span color ='red'>红</span>
+        <span color ='orange'>橙</span>
+        <span color ='yellow'>黄</span>
+        <span color ='green'>绿</span>
+        <span color ='blue'>蓝</span>
+        <span color ='blueviolet'>靛</span>
+        <span color ='purple'>紫</span>
+    </div>
+</body>
+</html>
